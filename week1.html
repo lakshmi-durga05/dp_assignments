@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    :root {
+      --main-bg: #f4f4f4;
+      --main-color: #333;
+      --accent: #2196f3;
+      --card-bg: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--main-bg);
+      color: var(--main-color);
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 3px 3px 8px gray;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    section {
+      background: var(--card-bg);
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      color: var(--accent);
+      margin-top: 0;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: square;
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .skills, .interests, .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills span, .interests span, .certifications span {
+      background: lightgray;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: 95%;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Lakshmi Durga Tirumani</h1>
+      <p>Full-Stack Web Developer</p> 
+      <p>Email: lakshmidurgatirumani2005@gmail.com | Phone: 9652104883</p>
+      <p>Location: Visakhapatnam | LinkedIn: https://www.linkedin.com/in/lakshmi-durga-tirumani 590536310 | GitHub: https://github.com/durga-2005</p>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>Aspiring full-stack web developer with a strong foundation in the MERN stack. Proficient in HTML, CSS, and JavaScript, with a passion for building responsive, user-friendly applications. Quick learner, team player, and dedicated to continuous skill development and staying current with industry trends.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <h3>MERN Stack - Counselling Competency</h3>
+      <p>05/2025 - 07/2025</p>
+      <ul>
+        <li>Built full-stack web applications using MongoDB, Express.js, React.js, and Node.js.</li>
+      </ul>
+
+      <h3>Web Development - Techno Hack Company</h3>
+      <p>05/2024 - 06/2024</p>
+      <ul>
+        <li>Developed responsive web pages including portfolio and login authentication using HTML, CSS, and JavaScript.</li>
+      </ul>
+
+      <h3>Cyber Security - EXCELR</h3>
+      <p>05/2024 - 08/2024</p>
+      <ul>
+        <li>Gained foundational knowledge in cybersecurity tools, techniques, and threat analysis.</li>
+      </ul>
+
+      <h3>Machine Learning - Bharat Intern</h3>
+      <p>05/2024 - 06/2024</p>
+      <ul>
+        <li>Developed and trained ML models using Python, scikit-learn, and TensorFlow to solve real-world problems.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <h3>COVID-19 Tracker Web App</h3>
+      <p>Developed a real-time COVID tracker using React.js with country-wise stats and interactive visualizations. Includes graphs, maps, and dropdown filters with live API data.</p>
+      
+      <h3>MeeSeva Web Portal with Admin Panel</h3>
+      <p>Built a full-stack MeeSeva portal using MERN stack with secure login, service forms, payments, and status tracking. Admins manage applications and notify users in real-time.</p>
+      
+
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p><b>Programming Languages:</b> Python, Java, C, C++</p>
+      <p><b>Web Technologies:</b> HTML, CSS, JavaScript, React.js, Node.js, Express</p>
+      <p><b>Databases:</b> SQL, MongoDB</p>
+      <p><b>Tools & IDEs:</b> Visual Studio Code</p>
+      <p><b>Operating Systems:</b> Windows, Linux</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><b>B.Tech in Computer Science</b>: Gayatri Women's Engineering College (2022 - 2026) - CGPA: 8.33/10</p>
+      <p><b>Intermediate</b>: Bhaskara Junior College (2020 - 2022) - CGPA: 8.98/10</p>
+      <p><b>High School</b>: Viveka English Medium High School (2010 - 2020) - CGPA: 8.44/10</p>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <div class="certifications">
+        <span>Python</span>
+        <span>MERN</span>
+        <span>Machine Learning</span>
+        <span>Data Science</span>
+        <span>Web Development</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p>English - Full Professional Proficiency</p>
+      <p>Telugu - Full Professional Proficiency</p>
+      <p>Hindi - Professional Working Proficiency</p>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <div class="interests">
+        <span>Full-Stack Development</span>
+    <span>Machine Learning</span>
+    <span>Cybersecurity</span>
+    <span>Web Application Design</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
